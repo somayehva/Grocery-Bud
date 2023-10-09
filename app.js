@@ -89,7 +89,6 @@ function editItem(e) {
     submitBtn.textContent = "edit"
 }
 
-// set back to default
 function setBackToDefault() {
     grocery.value = "";
     editFlag = false;
@@ -100,7 +99,6 @@ function setBackToDefault() {
 // ****** LOCAL STORAGE **********
 function addToLocalStorage(id, value) {
     const grocery = { id: id, value: value }
-    // const grocery = {id,value} this is the same  as above
     const items = getLocalStorage();
     console.log(items)
     items.push(grocery);
@@ -129,16 +127,6 @@ function editLocalStorage(id, value) {
 function getLocalStorage() {
     return localStorage.getItem("list") ? JSON.parse(localStorage.getItem("list")) : [];
 }
-// local storge methods:
-// local storage API
-// setItem
-// getItem
-// removeItem
-// save as string
-// localStorage.setItem("orange", JSON.stringify(["item", "item2"]))
-// const oranges = JSON.parse(localStorage.getItem("orange"));
-// localStorage.removeItem("orange")
-
 
 
 // ****** SETUP ITEMS **********
