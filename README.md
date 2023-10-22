@@ -6,7 +6,7 @@ Create a web application for managing your grocery list. You can add items, dele
 
 ## Demo
 
-You can try the live demo [here](link-to-your-live-demo).
+You can try the live demo [here](http://somayeh.me/grocery-bud/).
 
 ## Technologies Used
 
@@ -23,4 +23,4 @@ You can try the live demo [here](link-to-your-live-demo).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
